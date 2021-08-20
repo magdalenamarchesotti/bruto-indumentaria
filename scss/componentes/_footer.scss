@@ -1,0 +1,104 @@
+@import '../base/mixins';
+@import '../base/colores';
+@import '../base/fuentes';
+@import '../base/operadores';
+
+.seguinos {
+    color: nth($colores-proyecto, 2);
+    font-size: nth($fuentes-proyecto, 3);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px 0 0 100px;
+    padding-bottom: 10px; 
+}
+
+.footer-container {
+    padding: 20px 100px;
+    @include parametro-flex(flex, left);
+    
+    .footer {
+    @include parametro-flex-completo(100px, flex, space-around);
+
+    .iconos-rrss {
+    a {
+        img {
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+    }
+}
+    }
+}
+
+.newsletter-titulo {
+    color: nth($colores-proyecto, 2);
+    font-size: nth($fuentes-proyecto, 2);
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 10px;  
+}
+
+.newsletter-container {
+    flex-direction: column;
+    @include parametro-flex(flex, flex-end);
+  
+    .newsletter-menu {
+    @include parametro-flex-completo(300px, flex, space-around);
+
+    div {
+        .ingresar-correo {
+            color:nth($colores-proyecto, 1);
+            font-size: nth($fuentes-proyecto, 1);
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            padding-bottom: 10px;
+            text-align: right;
+        }
+    }
+
+    div {
+        .suscribirse {
+            color:nth($colores-proyecto, 1);
+            font-size: nth($fuentes-proyecto, 1);
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            padding-bottom: 10px;
+            font-weight: bold;
+            text-align: right;
+        }
+    }
+}
+}
+
+.footer-container-2 {
+    @include parametro-flex(flex, center);
+
+    .footer-menu {
+        @include parametro-flex-completo(900px, flex, space-around);
+
+        .div-footer {
+            h4 {
+                color:nth($colores-proyecto, 1);
+                letter-spacing: 4px;
+                font-size: nth($fuentes-proyecto, 1);
+                font-family: 'Poppins', sans-serif;
+                text-decoration: none;
+                font-weight: bolder;
+                text-transform: uppercase; 
+            }
+            .footer-final {
+                color: nth($colores-proyecto, 1);
+                letter-spacing: 1px;
+                font-size: nth($fuentes-proyecto, 1);
+                font-family: 'Poppins', sans-serif;
+                text-decoration: none;
+            }
+        }
+    }
+}
+

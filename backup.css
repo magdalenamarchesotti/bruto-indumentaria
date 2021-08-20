@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu-container {
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buscador {
+    font-size: 120%;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 10px;
+}
+
+.header-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    z-index: 1999;
+}
+
+
+.header-2 {
+    color:black;
+    letter-spacing: 2px;
+    font-size: 120%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.header-2:hover {
+    text-decoration: none;
+    border-bottom: 3px solid rgb(175,65, 65); 
+    color: rgb(175, 65, 65);
+}
+
+.logo-choiques {
+width: 50%;
+}
+
+.nueva-coleccion {
+    background-image: url("imagenes/ropa-choiques-24.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+margin-top: 50px;
+}
+
+.aw-21 {
+    color:white;
+    letter-spacing: 2px;
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nueva-coleccion, .aw-21 {
+    padding: 200px 0 0 20px;
+}
+
+.ver-coleccion {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 120%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto-bienvenida {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 120%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 50px 20px 0 20px;
+}
+
+.section-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.condiciones {
+    color: rgb(175, 65, 65);
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.condiciones img {
+    width: 22px;
+}
+
+.productos-elegidos {
+    color: black;
+    font-size: 120%;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;  
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagen-tienda {
+    width: 200px;
+    border-radius: 10%;
+}
+
+.titulo {
+    color: black;
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;    
+}
+
+.photo-grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "imagen-1 imagen-2 imagen-3"
+    "imagen-4 imagen-5 imagen-6"
+    "imagen-7 imagen-8 imagen-9";
+}
+
+.photo-grid-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "imagen-1 imagen-2 imagen-3"
+    "imagen-4 imagen-5 imagen-6"
+    "imagen-7 imagen-8 imagen-9";
+}
+
+.tienda-2 {
+    color: black;
+    font-size: 150%;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px 0 0 20px; 
+    grid-area: titulo;
+}
+
+.photo-1 {
+    grid-area: imagen-1;
+}
+
+.photo-2 {
+    grid-area: imagen-2;
+}
+
+.photo-3 {
+    grid-area: imagen-3;
+}
+
+.photo-4 {
+    grid-area: imagen-4;
+}
+
+.photo-5 {
+    grid-area: imagen-5;
+}
+
+.photo-6 {
+    grid-area: imagen-6;
+}
+
+.photo-7 {
+    grid-area: imagen-7;
+}
+
+.photo-8 {
+    grid-area: imagen-8;
+}
+
+.photo-9 {
+    grid-area: imagen-9;
+}
+
+.imagen-tienda:hover {
+    opacity: 0.5;
+}
+
+.locales {
+    color: black;
+    font-size: 150%;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px 0 0 20px;  
+}
+
+.accordion-body {
+    color: black;
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.accordion-button {
+    color: black;
+    font-size: 60%;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.footer-container {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: left;
+}
+
+.footer {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seguinos {
+    color: rgb(175, 65, 65);
+    font-size: 120%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px 0 0 100px;
+    padding-bottom: 10px; 
+}
+
+.imagen-icono:hover {
+transform: scale(1.5);
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.newsletter-menu {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsletter-titulo {
+    color: rgb(175, 65, 65);
+    font-size: 100%;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 10px;  
+}
+
+.ingresar-correo {
+    color: black;
+    font-size: 90%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.suscribirse {
+    color: black;
+    font-size: 90%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+h4 {
+    color: black;
+    letter-spacing: 4px;
+    font-size: 90%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;  
+}
+
+.footer-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-final {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 90%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* Media query */
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .logo-choiques {
+        width: 100%;
+    }
+    .header-1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .section div {
+        width: 50%;
+    }
+    .photo-grid-2 {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(9,auto);
+        grid-template-areas: 
+        "photo-1"
+        "photo-2"
+        "photo-3"
+        "photo-4"
+        "photo-5"
+        "photo-6"
+        "photo-7"
+        "photo-8"
+        "photo-9";
+    }
+    .footer-menu {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .div-footer {
+        width: 50%;
+}
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    .logo-choiques {
+        width: 100%;
+    }
+    .header-1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-grid-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas:
+        "photo-1 photo-2"
+        "photo-3 photo-4"
+        "photo-5 photo-6"
+        "photo-7 photo-8"
+        "photo-9 photo-9";
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+    .photo-grid-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: 
+        "photo-1 photo-2 photo-3"
+        "photo-4 photo-5 photo-6"
+        "photo-7 photo-8 photo-9";
+    }
+}
+
+
+
+
+
+

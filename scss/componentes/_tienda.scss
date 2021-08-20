@@ -1,0 +1,103 @@
+@import '../base/mixins';
+@import '../base/colores';
+@import '../base/fuentes';
+@import '../base/operadores';
+
+.titulo {
+    color: nth($colores-proyecto, 1);
+    font-size: nth($fuentes-proyecto, 2);
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;    
+}
+
+.photo-grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "imagen-1 imagen-2 imagen-3"
+    "imagen-4 imagen-5 imagen-6"
+    "imagen-7 imagen-8 imagen-9";
+
+    .tienda-2 {
+        color: nth($colores-proyecto, 1);
+        font-size: nth($fuentes-proyecto, 4);
+        letter-spacing: 5px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 30px 0 0 20px; 
+        grid-area: titulo;
+    }
+
+    .photo-grid-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-areas: 
+        "titulo titulo titulo"
+        "imagen-1 imagen-2 imagen-3"
+        "imagen-4 imagen-5 imagen-6"
+        "imagen-7 imagen-8 imagen-9";
+
+        .imagen-tienda {
+            width: 200px;
+            border-radius: 10%;
+            
+            &:hover {
+            opacity: 0.5;
+            }
+        }
+        
+        .photo-1 {
+            grid-area: imagen-1;
+        }
+        
+        .photo-2 {
+            grid-area: imagen-2;
+        }
+        
+        .photo-3 {
+            grid-area: imagen-3;
+        }
+        
+        .photo-4 {
+            grid-area: imagen-4;
+        }
+        
+        .photo-5 {
+            grid-area: imagen-5;
+        }
+        
+        .photo-6 {
+            grid-area: imagen-6;
+        }
+        
+        .photo-7 {
+            grid-area: imagen-7;
+        }
+        
+        .photo-8 {
+            grid-area: imagen-8;
+        }
+        
+        .photo-9 {
+            grid-area: imagen-9;
+        }
+    }
+}
+
+
+
+
+
+
+
+

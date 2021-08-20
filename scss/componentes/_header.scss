@@ -1,0 +1,53 @@
+@import '../base/mixins';
+@import '../base/colores';
+@import '../base/fuentes';
+@import '../base/operadores';
+.menu-container {
+    padding: 20px 0;
+    @include parametro-flex-completo(100%, flex, flex-end);
+
+    .menu {
+     @include parametro-flex-completo(100%, flex, flex-end);   
+    }
+}
+
+.header-container {
+    padding: 20px 0;
+    @include parametro-flex(flex, space-evenly);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1999;
+
+    .header {
+        @include parametro-flex-completo(100%, flex, space-evenly);
+
+        .header-1 {
+            @include parametro-flex-completo(100%, flex, space-evenly);
+            list-style: none;
+            align-items: center;
+
+            li {
+                img {
+                width: $ancho - 50%;
+                }    
+            }
+
+            li {
+                a {  
+                    color: nth($colores-proyecto, 1);
+                    letter-spacing: 2px;
+                    font-size: nth($fuentes-proyecto, 3);
+                    font-family: 'Poppins', sans-serif;
+                    text-decoration: none;
+
+                    &:hover {
+                    text-decoration: none;
+                    border-bottom: 3px solid rgb(175,65, 65); 
+                    color: nth($colores-proyecto, 2);
+                    }
+                }
+            }
+        }
+    }
+}

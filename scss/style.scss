@@ -1,0 +1,100 @@
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'componentes/secciones';
+@import 'componentes/tienda';
+@import 'base/colores';
+@import 'base/fuentes';
+@import 'base/mixins';
+@import 'base/operadores';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Media query */
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .logo-choiques {
+        width: 100%;
+    }
+    .header-1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nueva-coleccion img {
+        width: 100%;
+    }
+    .section {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .section div {
+        width: 50%;
+    }
+    .photo-grid-2 {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(9,auto);
+        grid-template-areas: 
+        "photo-1"
+        "photo-2"
+        "photo-3"
+        "photo-4"
+        "photo-5"
+        "photo-6"
+        "photo-7"
+        "photo-8"
+        "photo-9";
+    }
+    .footer-menu {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .div-footer {
+        width: 50%;
+}
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    .logo-choiques {
+        width: 100%;
+    }
+    .header-1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-grid-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas:
+        "photo-1 photo-2"
+        "photo-3 photo-4"
+        "photo-5 photo-6"
+        "photo-7 photo-8"
+        "photo-9 photo-9";
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+    .photo-grid-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: 
+        "photo-1 photo-2 photo-3"
+        "photo-4 photo-5 photo-6"
+        "photo-7 photo-8 photo-9";
+    }
+}
+

@@ -1,0 +1,155 @@
+@import '../base/mixins';
+@import '../base/colores';
+@import '../base/fuentes';
+@import '../base/operadores';
+
+
+/* ASI LO TENIA ANTES
+.nueva-coleccion {
+    background-image: url("../imagenes/ropa-choiques-24.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: 50px; 
+
+h1 {
+    color: nth($colores-proyecto, 3);
+    letter-spacing: 2px;
+    font-size: nth($fuentes-proyecto, 4);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 200px 0 0 20px;
+}
+
+h2 {
+    color: nth($colores-proyecto, 3);
+    letter-spacing: 2px;
+    font-size: nth($fuentes-proyecto, 3);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}*/
+
+.nueva-coleccion {  
+
+    h1 {
+    color: nth($colores-proyecto, 2);
+    letter-spacing: 2px;
+    font-size: nth($fuentes-proyecto, 4);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    @include parametro-flex (flex, flex-end);
+    flex-direction: column;
+}
+    h2 {
+    color: nth($colores-proyecto, 2);
+    letter-spacing: 2px;
+    font-size: nth($fuentes-proyecto, 3);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    @include parametro-flex (flex, flex-end);
+    flex-direction: column;
+}
+}
+
+.texto-bienvenida {
+    color: nth($colores-proyecto, 1);
+    letter-spacing: 2px;
+    font-size: nth($fuentes-proyecto, 3);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 50px 20px 0 20px;
+}
+
+.section-container {
+    padding: 20px 0;
+    @include parametro-flex(flex, center);
+
+    .section {
+        @include parametro-flex-completo(900px, flex, space-around);
+
+    .condiciones {
+            color: nth($colores-proyecto, 2);
+            font-size: nth($fuentes-proyecto, 2);
+            letter-spacing: 1px;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            font-weight: bolder;
+            margin-top: 30px;
+            flex-direction: column;
+            @include parametro-flex(flex, space-between);
+
+            img {
+                width: 22px;
+            }
+        } 
+    }
+}
+
+.photo-grid-container {
+    @include parametro-flex(flex, center);
+    flex-direction: column;
+
+    h3 {
+    color: nth($colores-proyecto, 1);
+    font-size: nth($fuentes-proyecto, 3);
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;  
+    }
+
+    div {
+        div {
+            div {
+                height: 500px;
+            }
+        }
+    }
+}
+
+#locales {
+    h3 {
+        color: nth($colores-proyecto, 1);
+        font-size: nth($fuentes-proyecto, 4);
+        letter-spacing: 5px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 30px 0 0 20px; 
+    }
+
+    div {
+        div {
+            h2 {
+                button {
+                    color: nth($colores-proyecto, 1);
+                    font-size: nth($fuentes-proyecto, 5);
+                    letter-spacing: 1px;
+                    font-family: 'Poppins', sans-serif;
+                    text-decoration: none;
+                }
+            }
+
+            div {
+                div {
+                    color: nth($colores-proyecto, 1);
+                    font-size: nth($fuentes-proyecto, 2);
+                    letter-spacing: 1px;
+                    font-family: 'Poppins', sans-serif;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+

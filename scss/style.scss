@@ -40,13 +40,17 @@ html {
     .nueva-coleccion img {
         width: 100%;
     }
-    .section {
-        width: 100%;
-        flex-wrap: wrap;
+
+    .section-container {
+        .section {
+            width: 100%;
+            flex-wrap: wrap;
+                .section div {
+                    width: 50%;
+            }
+        }
     }
-    .section div {
-        width: 50%;
-    }
+
     .photo-grid-2 {
         grid-template-columns: auto;
         grid-template-rows: repeat(9,auto);
@@ -61,13 +65,17 @@ html {
         "photo-8"
         "photo-9";
     }
-    .footer-menu {
-        width: 100%;
-        flex-wrap: wrap;
+
+    .footer-container-2 {
+        .footer-menu {
+            width: 100%;
+            flex-wrap: wrap;
+                .footer-menu div {
+                    width: 50%;
+                }
+            }
     }
-    .div-footer {
-        width: 50%;
-}
+
 }
 
 /* Tablet */

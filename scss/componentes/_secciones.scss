@@ -33,7 +33,7 @@ h2 {
 }
 }*/
 
-.nueva-coleccion {  
+/*.nueva-coleccion {  
 
     h1 {
     color: nth($colores-proyecto, 2);
@@ -54,7 +54,42 @@ h2 {
     @include parametro-flex (flex, flex-end);
     flex-direction: column;
 }
+}*/
+
+.nueva-coleccion {
+    .nueva-coleccion-div {
+        display: flex;
+        align-items: flex-end;
+            .nueva-coleccion-div-2 {
+                position: absolute;
+                    .aw-21 {
+                        color: nth($colores-proyecto, 2);
+                        letter-spacing: 2px;
+                        font-size: nth($fuentes-proyecto, 4);
+                        font-family: 'Poppins', sans-serif;
+                        text-decoration: none;
+                        font-weight: bolder;
+                        @include parametro-flex (flex, flex-end);
+                        flex-direction: column;
+                    }
+                    .ver-coleccion {
+                        color: nth($colores-proyecto, 2);
+                        letter-spacing: 2px;
+                        font-size: nth($fuentes-proyecto, 3);
+                        font-family: 'Poppins', sans-serif;
+                        text-decoration: none;
+                        @include parametro-flex (flex, flex-end);
+                        flex-direction: column;
+                    }
+                }
+        div {
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
+
 
 .texto-bienvenida {
     color: nth($colores-proyecto, 1);

@@ -84,9 +84,10 @@
 }
 
 .newsletter-container {
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 .newsletter-container .newsletter-menu {
   width: 300px;
@@ -116,7 +117,7 @@
   justify-content: center;
 }
 .footer-container-2 .footer-menu {
-  width: 900px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -128,6 +129,7 @@
   text-decoration: none;
   font-weight: bolder;
   text-transform: uppercase;
+  text-align: center;
 }
 .footer-container-2 .footer-menu .div-footer .footer-final {
   color: black;
@@ -135,6 +137,7 @@
   font-size: 90%;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  text-align: center;
 }
 
 /* ASI LO TENIA ANTES

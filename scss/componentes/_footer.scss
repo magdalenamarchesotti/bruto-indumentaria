@@ -44,8 +44,10 @@
 }
 
 .newsletter-container {
-    flex-direction: column;
+    flex-direction: row;
     @include parametro-flex(flex, flex-end);
+    align-items: flex-end;
+
   
     .newsletter-menu {
     @include parametro-flex-completo(300px, flex, space-around);
@@ -79,7 +81,7 @@
     @include parametro-flex(flex, center);
 
     .footer-menu {
-        @include parametro-flex-completo(900px, flex, space-around);
+        @include parametro-flex-completo(100%, flex, space-around);
 
         .div-footer {
             h4 {
@@ -89,7 +91,8 @@
                 font-family: 'Poppins', sans-serif;
                 text-decoration: none;
                 font-weight: bolder;
-                text-transform: uppercase; 
+                text-transform: uppercase;
+                text-align: center; 
             }
             .footer-final {
                 color: nth($colores-proyecto, 1);
@@ -97,6 +100,7 @@
                 font-size: nth($fuentes-proyecto, 1);
                 font-family: 'Poppins', sans-serif;
                 text-decoration: none;
+                text-align: center;
             }
         }
     }

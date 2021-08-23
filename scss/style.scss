@@ -80,14 +80,22 @@ html {
 
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-    .logo-choiques {
-        width: 100%;
+    
+    .header-container {
+        .header {
+            .header-1 {
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                    li {
+                        img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
-    .header-1 {
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
+
     .photo-grid-2 {
         display: grid;
         grid-template-columns: auto auto;
@@ -103,6 +111,7 @@ html {
 
 /* Desktop */
 @media only screen and (min-width: 961px) {
+    
     .photo-grid-2 {
         display: grid;
         grid-template-columns: auto auto auto;

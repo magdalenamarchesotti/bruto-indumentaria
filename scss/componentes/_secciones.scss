@@ -63,26 +63,27 @@ h2 {
             .nueva-coleccion-div-2 {
                 position: absolute;
                     .aw-21 {
-                        color: nth($colores-proyecto, 2);
+                        color: nth($colores-proyecto, 3);
                         letter-spacing: 2px;
                         font-size: nth($fuentes-proyecto, 4);
                         font-family: 'Poppins', sans-serif;
                         text-decoration: none;
                         font-weight: bolder;
-                        @include parametro-flex (flex, flex-end);
-                        flex-direction: column;
+                        /*@include parametro-flex (flex, flex-end);
+                        flex-direction: column;*/
                     }
                     .ver-coleccion {
-                        color: nth($colores-proyecto, 2);
+                        color: nth($colores-proyecto, 3);
                         letter-spacing: 2px;
                         font-size: nth($fuentes-proyecto, 3);
                         font-family: 'Poppins', sans-serif;
                         text-decoration: none;
-                        @include parametro-flex (flex, flex-end);
-                        flex-direction: column;
+                        /*@include parametro-flex (flex, flex-end);
+                        flex-direction: column;*/
                     }
                 }
         div {
+            width: 100%;
             img {
                 width: 100%;
             }

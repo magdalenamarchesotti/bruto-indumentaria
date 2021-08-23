@@ -245,6 +245,7 @@ h2 {
   flex-direction: column;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .section-container .section .condiciones .condiciones-titulo {
   color: #af4141;
@@ -336,7 +337,7 @@ h2 {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   grid-area: galeria;
-  grid-template-areas: "imagen-1 imagen-2 imagen-3" "imagen-4 imagen-5 imagen-6" "imagen-7 imagen-8 imagen-9";
+  grid-template-areas: "photo-1 photo-2 photo-3" "photo-4 photo-5 photo-6" "photo-7 photo-8 photo-9";
   justify-items: center;
   width: 100%;
 }
@@ -348,31 +349,31 @@ h2 {
   opacity: 0.5;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-1 {
-  grid-area: imagen-1;
+  grid-area: photo-1;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-2 {
-  grid-area: imagen-2;
+  grid-area: photo-2;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-3 {
-  grid-area: imagen-3;
+  grid-area: photo-3;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-4 {
-  grid-area: imagen-4;
+  grid-area: photo-4;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-5 {
-  grid-area: imagen-5;
+  grid-area: photo-5;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-6 {
-  grid-area: imagen-6;
+  grid-area: photo-6;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-7 {
-  grid-area: imagen-7;
+  grid-area: photo-7;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-8 {
-  grid-area: imagen-8;
+  grid-area: photo-8;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-9 {
-  grid-area: imagen-9;
+  grid-area: photo-9;
 }
 
 * {
@@ -408,7 +409,7 @@ html {
     width: 50%;
   }
 
-  .photo-grid-2 {
+  .photo-grid-container-2 .photo-grid-2 {
     grid-template-columns: auto;
     grid-template-rows: repeat(9, auto);
     grid-template-areas: "photo-1" "photo-2" "photo-3" "photo-4" "photo-5" "photo-6" "photo-7" "photo-8" "photo-9";
@@ -433,7 +434,7 @@ html {
     width: 100%;
   }
 
-  .photo-grid-2 {
+  .photo-grid-container-2 .photo-grid-2 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: repeat(5, auto);
@@ -442,7 +443,7 @@ html {
 }
 /* Desktop */
 @media only screen and (min-width: 961px) {
-  .photo-grid-2 {
+  .photo-grid-container-2 .photo-grid-2 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-areas: "photo-1 photo-2 photo-3" "photo-4 photo-5 photo-6" "photo-7 photo-8 photo-9";

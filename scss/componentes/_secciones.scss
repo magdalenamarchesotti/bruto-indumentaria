@@ -113,6 +113,7 @@ h2 {
             margin-top: 30px;
             flex-direction: column;
             @include parametro-flex(flex, space-between);
+            align-items: center;
 
             .condiciones-titulo {
                 color: nth($colores-proyecto, 2);

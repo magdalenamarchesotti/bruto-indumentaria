@@ -44,12 +44,12 @@
 }
 .header-container .header .header-1 li a:hover {
   text-decoration: none;
-  border-bottom: 3px solid #af4141;
-  color: #af4141;
+  border-bottom: 3px solid #fb46f4;
+  color: #fb46f4;
 }
 
 .seguinos {
-  color: #af4141;
+  color: #0a1af3;
   font-size: 120%;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -73,7 +73,7 @@
 }
 
 .newsletter-titulo {
-  color: #af4141;
+  color: #0a1af3;
   font-size: 100%;
   text-align: right;
   font-family: "Poppins", sans-serif;

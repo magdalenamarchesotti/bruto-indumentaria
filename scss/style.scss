@@ -54,7 +54,7 @@ html {
     .photo-grid-container-2 {
         .photo-grid-2 {
             grid-template-columns: auto;
-            grid-template-rows: repeat(9,auto);
+            grid-template-rows: repeat(12,auto);
             grid-template-areas: 
             "photo-1"
             "photo-2"
@@ -64,7 +64,14 @@ html {
             "photo-6"
             "photo-7"
             "photo-8"
-            "photo-9";
+            "photo-9"
+            "photo-10"
+            "photo-11"
+            "photo-12";
+
+            .imagen-tienda {
+                width: $ancho;
+            }
         }
     }
 
@@ -102,13 +109,14 @@ html {
         .photo-grid-2 {
             display: grid;
             grid-template-columns: auto auto;
-            grid-template-rows: repeat(5,auto);
+            grid-template-rows: repeat(6,auto);
             grid-template-areas:
             "photo-1 photo-2"
             "photo-3 photo-4"
             "photo-5 photo-6"
             "photo-7 photo-8"
-            "photo-9 photo-9";
+            "photo-9 photo-10"
+            "photo-11 photo-12";
         }
     }
 }
@@ -123,7 +131,8 @@ html {
             grid-template-areas: 
             "photo-1 photo-2 photo-3"
             "photo-4 photo-5 photo-6"
-            "photo-7 photo-8 photo-9";
+            "photo-7 photo-8 photo-9"
+            "photo-10 photo-11 photo-12";
         }
     }
 }

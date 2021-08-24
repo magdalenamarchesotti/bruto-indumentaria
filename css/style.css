@@ -339,20 +339,21 @@ h2 {
 .photo-grid-container-2 .photo-grid-2 {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   grid-area: galeria;
-  grid-template-areas: "photo-1 photo-2 photo-3" "photo-4 photo-5 photo-6" "photo-7 photo-8 photo-9";
+  grid-template-areas: "photo-1 photo-2 photo-3" "photo-4 photo-5 photo-6" "photo-7 photo-8 photo-9" "photo-10 photo-11 photo-12";
   justify-items: center;
   width: 100%;
 }
 .photo-grid-container-2 .photo-grid-2 .imagen-tienda {
-  width: 300px;
-  border-radius: 10%;
+  width: 400px;
+  border-radius: 5%;
 }
 .photo-grid-container-2 .photo-grid-2 .imagen-tienda:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 .photo-grid-container-2 .photo-grid-2 .photo-1 {
   grid-area: photo-1;
@@ -380,6 +381,15 @@ h2 {
 }
 .photo-grid-container-2 .photo-grid-2 .photo-9 {
   grid-area: photo-9;
+}
+.photo-grid-container-2 .photo-grid-2 .photo-10 {
+  grid-area: photo-10;
+}
+.photo-grid-container-2 .photo-grid-2 .photo-11 {
+  grid-area: photo-11;
+}
+.photo-grid-container-2 .photo-grid-2 .photo-12 {
+  grid-area: photo-12;
 }
 
 * {
@@ -417,8 +427,11 @@ html {
 
   .photo-grid-container-2 .photo-grid-2 {
     grid-template-columns: auto;
-    grid-template-rows: repeat(9, auto);
-    grid-template-areas: "photo-1" "photo-2" "photo-3" "photo-4" "photo-5" "photo-6" "photo-7" "photo-8" "photo-9";
+    grid-template-rows: repeat(12, auto);
+    grid-template-areas: "photo-1" "photo-2" "photo-3" "photo-4" "photo-5" "photo-6" "photo-7" "photo-8" "photo-9" "photo-10" "photo-11" "photo-12";
+  }
+  .photo-grid-container-2 .photo-grid-2 .imagen-tienda {
+    width: 100%;
   }
 
   .footer-container-2 .footer-menu {
@@ -443,8 +456,8 @@ html {
   .photo-grid-container-2 .photo-grid-2 {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: repeat(5, auto);
-    grid-template-areas: "photo-1 photo-2" "photo-3 photo-4" "photo-5 photo-6" "photo-7 photo-8" "photo-9 photo-9";
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "photo-1 photo-2" "photo-3 photo-4" "photo-5 photo-6" "photo-7 photo-8" "photo-9 photo-10" "photo-11 photo-12";
   }
 }
 /* Desktop */
@@ -452,7 +465,7 @@ html {
   .photo-grid-container-2 .photo-grid-2 {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-areas: "photo-1 photo-2 photo-3" "photo-4 photo-5 photo-6" "photo-7 photo-8 photo-9";
+    grid-template-areas: "photo-1 photo-2 photo-3" "photo-4 photo-5 photo-6" "photo-7 photo-8 photo-9" "photo-10 photo-11 photo-12";
   }
 }
 

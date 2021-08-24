@@ -204,6 +204,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-weight: bolder;
+  margin-left: 20px;
   /*@include parametro-flex (flex, flex-end);
   flex-direction: column;*/
 }
@@ -213,6 +214,7 @@ h2 {
   font-size: 120%;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  margin-left: 20px;
   /*@include parametro-flex (flex, flex-end);
   flex-direction: column;*/
 }
@@ -239,7 +241,7 @@ h2 {
   justify-content: center;
 }
 .section-container .section {
-  width: 900px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -251,7 +253,7 @@ h2 {
   align-items: center;
 }
 .section-container .section .condiciones .condiciones-titulo {
-  color: #af4141;
+  color: #0a1af3;
   font-size: 100%;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;

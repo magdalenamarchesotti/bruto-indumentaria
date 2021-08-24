@@ -69,6 +69,7 @@ h2 {
                         font-family: 'Poppins', sans-serif;
                         text-decoration: none;
                         font-weight: bolder;
+                        margin-left: 20px;
                         /*@include parametro-flex (flex, flex-end);
                         flex-direction: column;*/
                     }
@@ -78,6 +79,7 @@ h2 {
                         font-size: nth($fuentes-proyecto, 3);
                         font-family: 'Poppins', sans-serif;
                         text-decoration: none;
+                        margin-left: 20px;
                         /*@include parametro-flex (flex, flex-end);
                         flex-direction: column;*/
                     }
@@ -107,7 +109,7 @@ h2 {
     @include parametro-flex(flex, center);
 
     .section {
-        @include parametro-flex-completo(900px, flex, space-around);
+        @include parametro-flex-completo(100%, flex, space-around);
 
     .condiciones {
             margin-top: 30px;
@@ -116,7 +118,7 @@ h2 {
             align-items: center;
 
             .condiciones-titulo {
-                color: nth($colores-proyecto, 2);
+                color: nth($colores-proyecto, 4);
                 font-size: nth($fuentes-proyecto, 2);
                 letter-spacing: 1px;
                 font-family: 'Poppins', sans-serif;

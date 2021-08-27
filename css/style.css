@@ -192,7 +192,7 @@ h2 {
 }*/
 .nueva-coleccion .nueva-coleccion-div {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .nueva-coleccion .nueva-coleccion-div .nueva-coleccion-div-2 {
   position: absolute;
@@ -460,7 +460,7 @@ html {
     grid-template-areas: "photo-1 photo-2" "photo-3 photo-4" "photo-5 photo-6" "photo-7 photo-8" "photo-9 photo-10" "photo-11 photo-12";
   }
   .photo-grid-container-2 .photo-grid-2 .imagen-tienda {
-    width: 90%;
+    width: 100%;
   }
 }
 /* Desktop */

@@ -3,59 +3,6 @@
 @import '../base/fuentes';
 @import '../base/operadores';
 
-
-/* ASI LO TENIA ANTES
-.nueva-coleccion {
-    background-image: url("../imagenes/ropa-choiques-24.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin-top: 50px; 
-
-h1 {
-    color: nth($colores-proyecto, 3);
-    letter-spacing: 2px;
-    font-size: nth($fuentes-proyecto, 4);
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-weight: bolder;
-    padding: 200px 0 0 20px;
-}
-
-h2 {
-    color: nth($colores-proyecto, 3);
-    letter-spacing: 2px;
-    font-size: nth($fuentes-proyecto, 3);
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-}*/
-
-/*.nueva-coleccion {  
-
-    h1 {
-    color: nth($colores-proyecto, 2);
-    letter-spacing: 2px;
-    font-size: nth($fuentes-proyecto, 4);
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-weight: bolder;
-    @include parametro-flex (flex, flex-end);
-    flex-direction: column;
-}
-    h2 {
-    color: nth($colores-proyecto, 2);
-    letter-spacing: 2px;
-    font-size: nth($fuentes-proyecto, 3);
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    @include parametro-flex (flex, flex-end);
-    flex-direction: column;
-}
-}*/
-
 .nueva-coleccion {
     .nueva-coleccion-div {
         display: flex;
@@ -70,8 +17,6 @@ h2 {
                         text-decoration: none;
                         font-weight: bolder;
                         margin-left: 20px;
-                        /*@include parametro-flex (flex, flex-end);
-                        flex-direction: column;*/
                     }
                     .ver-coleccion {
                         color: nth($colores-proyecto, 3);
@@ -80,8 +25,6 @@ h2 {
                         font-family: 'Poppins', sans-serif;
                         text-decoration: none;
                         margin-left: 20px;
-                        /*@include parametro-flex (flex, flex-end);
-                        flex-direction: column;*/
                     }
                 }
         div {

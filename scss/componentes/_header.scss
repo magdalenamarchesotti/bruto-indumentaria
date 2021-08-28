@@ -3,15 +3,6 @@
 @import '../base/fuentes';
 @import '../base/operadores';
 
-.menu-container {
-    padding: 20px 0;
-    @include parametro-flex-completo(100%, flex, flex-end);
-
-    .menu {
-     @include parametro-flex-completo(100%, flex, flex-end);  
-    }
-}
-
 .header-container {
     padding: 20px 0;
     @include parametro-flex(flex, space-evenly);

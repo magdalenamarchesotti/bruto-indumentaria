@@ -37,8 +37,22 @@ html {
         }
     }
 
-    .nueva-coleccion img {
-        width: 100%;
+    .nueva-coleccion {
+        .nueva-coleccion-div {
+            .nueva-coleccion-div-2 {
+                .ss-21 {
+                    text-align: center;
+                }
+                .ver-coleccion {
+                    text-align: center;
+                }
+            }
+            div {
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 
     .section-container {

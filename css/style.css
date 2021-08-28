@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-.menu-container {
-  padding: 20px 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-.menu-container .menu {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .header-container {
   padding: 20px 0;
   display: flex;
@@ -68,7 +56,11 @@
   display: flex;
   justify-content: space-around;
 }
-.footer-container .footer .iconos-rrss a img:hover {
+.footer-container .footer .iconos-rrss a i {
+  color: black;
+  font-size: 24px;
+}
+.footer-container .footer .iconos-rrss a i:hover {
   transform: scale(1.5);
 }
 
@@ -359,7 +351,13 @@ html {
     width: 100%;
   }
 
-  .nueva-coleccion img {
+  .nueva-coleccion .nueva-coleccion-div .nueva-coleccion-div-2 .ss-21 {
+    text-align: center;
+  }
+  .nueva-coleccion .nueva-coleccion-div .nueva-coleccion-div-2 .ver-coleccion {
+    text-align: center;
+  }
+  .nueva-coleccion .nueva-coleccion-div div img {
     width: 100%;
   }
 

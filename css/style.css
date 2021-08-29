@@ -43,6 +43,8 @@
   text-decoration: none;
   font-weight: bold;
   text-align: center;
+  letter-spacing: 3px;
+  margin-top: 50px;
 }
 
 .footer-container {
@@ -57,49 +59,10 @@
 .footer-container .footer .iconos-rrss a i {
   color: #0a1af3;
   font-size: 24px;
+  margin-bottom: 50px;
 }
 .footer-container .footer .iconos-rrss a i:hover {
   transform: scale(1.5);
-}
-
-.newsletter-titulo {
-  color: #0a1af3;
-  font-size: 100%;
-  text-align: right;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 10px;
-  padding-bottom: 10px;
-}
-
-.newsletter-container {
-  flex-direction: row;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.newsletter-container .newsletter-menu {
-  width: 300px;
-  display: flex;
-  justify-content: space-around;
-}
-.newsletter-container .newsletter-menu div .ingresar-correo {
-  color: black;
-  font-size: 90%;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  padding-bottom: 10px;
-  text-align: right;
-}
-.newsletter-container .newsletter-menu div .suscribirse {
-  color: black;
-  font-size: 90%;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  padding-bottom: 10px;
-  font-weight: bold;
-  text-align: right;
 }
 
 .footer-container-2 {

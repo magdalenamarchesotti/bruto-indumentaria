@@ -69,8 +69,9 @@
                 font-weight: bolder;
             }
 
-            img {
-                width: 22px;
+            i {
+                color: nth($colores-proyecto, 4);
+                font-size: 30px;
             }
         } 
     }

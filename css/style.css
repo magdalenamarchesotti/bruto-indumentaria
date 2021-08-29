@@ -198,8 +198,9 @@
   text-decoration: none;
   font-weight: bolder;
 }
-.section-container .section .condiciones img {
-  width: 22px;
+.section-container .section .condiciones i {
+  color: #0a1af3;
+  font-size: 30px;
 }
 
 .photo-grid-container {

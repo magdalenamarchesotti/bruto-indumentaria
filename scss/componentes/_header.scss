@@ -20,12 +20,10 @@
             align-items: center;
 
             li {
+                position: relative;
                 img {
                 width: $ancho - 30%;
                 }    
-            }
-
-            li {
                 a {  
                     color: nth($colores-proyecto, 1);
                     letter-spacing: 2px;
@@ -38,6 +36,14 @@
                     border-bottom: 3px solid rgb(251,70, 244); 
                     color: nth($colores-proyecto, 5);
                     }
+
+                    /*ul {
+                        position: absolute;
+                        display: none;
+                        li {
+                            display: block;
+                        }
+                    }*/
                 }
             }
         }

@@ -20,6 +20,9 @@
   list-style: none;
   align-items: center;
 }
+.header-container .header .header-1 li {
+  position: relative;
+}
 .header-container .header .header-1 li img {
   width: 70%;
 }
@@ -29,6 +32,13 @@
   font-size: 120%;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  /*ul {
+      position: absolute;
+      display: none;
+      li {
+          display: block;
+      }
+  }*/
 }
 .header-container .header .header-1 li a:hover {
   text-decoration: none;

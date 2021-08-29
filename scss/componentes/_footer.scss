@@ -9,13 +9,11 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-weight: bold;
-    margin: 50px 0 0 100px;
-    padding-bottom: 10px; 
+    text-align: center;
 }
 
 .footer-container {
-    padding: 20px 100px;
-    @include parametro-flex(flex, left);
+    @include parametro-flex(flex, center);
     
     .footer {
     @include parametro-flex-completo(100px, flex, space-around);
@@ -23,7 +21,7 @@
     .iconos-rrss {
     a {
         i {
-            color: nth($colores-proyecto, 1);
+            color: nth($colores-proyecto, 4);
             font-size: 24px;
             &:hover {
                 transform: scale(1.5);
@@ -89,7 +87,7 @@
             h4 {
                 color:nth($colores-proyecto, 1);
                 letter-spacing: 4px;
-                font-size: nth($fuentes-proyecto, 1);
+                font-size: nth($fuentes-proyecto, 7);
                 font-family: 'Poppins', sans-serif;
                 text-decoration: none;
                 font-weight: bolder;
@@ -99,7 +97,7 @@
             .footer-final {
                 color: nth($colores-proyecto, 1);
                 letter-spacing: 1px;
-                font-size: nth($fuentes-proyecto, 1);
+                font-size: nth($fuentes-proyecto, 7);
                 font-family: 'Poppins', sans-serif;
                 text-decoration: none;
                 text-align: center;

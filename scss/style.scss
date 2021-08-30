@@ -66,6 +66,12 @@ html {
         }
     }
 
+    .photo-grid-container {
+        h3 {
+            font-size: nth($fuentes-proyecto, 2);
+        }
+    }
+
     .photo-grid-container-2 {
         .photo-grid-2 {
             grid-template-columns: auto;

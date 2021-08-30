@@ -180,17 +180,17 @@
   flex-direction: column;
 }
 .photo-grid-container h3 {
-  color: black;
-  font-size: 120%;
-  letter-spacing: 5px;
+  color: #fb46f4;
+  font-size: 150%;
+  letter-spacing: 8px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-decoration: none;
   font-weight: bold;
   margin-top: 30px;
 }
-.photo-grid-container div div div {
-  height: 500px;
+.photo-grid-container div div div img {
+  width: 100%;
 }
 
 #locales h3 {
@@ -340,6 +340,10 @@ html {
   }
   .section-container .section .section div {
     width: 100%;
+  }
+
+  .photo-grid-container h3 {
+    font-size: 100%;
   }
 
   .photo-grid-container-2 .photo-grid-2 {

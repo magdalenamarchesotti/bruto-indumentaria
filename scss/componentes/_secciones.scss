@@ -82,11 +82,11 @@
     flex-direction: column;
 
     h3 {
-    color: nth($colores-proyecto, 1);
-    font-size: nth($fuentes-proyecto, 3);
-    letter-spacing: 5px;
+    color: nth($colores-proyecto, 5);
+    font-size: nth($fuentes-proyecto, 4);
+    letter-spacing: 8px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
     font-weight: bold;
     margin-top: 30px;  
@@ -95,7 +95,9 @@
     div {
         div {
             div {
-                height: 500px;
+                img {
+                    width: 100%;
+                }
             }
         }
     }

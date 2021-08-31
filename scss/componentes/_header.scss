@@ -4,7 +4,6 @@
 @import '../base/operadores';
 
 .header-container {
-    padding: 20px 0;
     @include parametro-flex(flex, space-evenly);
     position: sticky;
     top: 0;

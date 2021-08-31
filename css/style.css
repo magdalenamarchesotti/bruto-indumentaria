@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .header-container {
-  padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
   position: sticky;
@@ -359,7 +358,7 @@ html {
     width: 100%;
     flex-wrap: wrap;
   }
-  .footer-container-2 .footer-menu .footer-menu div {
+  .footer-container-2 .footer-menu .div-footer {
     width: 50%;
   }
 }

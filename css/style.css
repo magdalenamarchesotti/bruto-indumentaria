@@ -18,6 +18,7 @@
   justify-content: space-evenly;
   list-style: none;
   align-items: center;
+  padding-left: 0;
 }
 .header-container .header .header-1 li {
   position: relative;

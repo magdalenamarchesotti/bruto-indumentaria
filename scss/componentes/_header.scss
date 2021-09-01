@@ -17,6 +17,7 @@
             @include parametro-flex-completo(100%, flex, space-evenly);
             list-style: none;
             align-items: center;
+            padding-left: 0;
 
             li {
                 position: relative;

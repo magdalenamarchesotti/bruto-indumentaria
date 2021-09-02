@@ -37,8 +37,12 @@
       display: none;
       li {
           display: block;
+          position: relative;
       }
-  }*/
+  }
+  &:hover ul {
+      display: block; 
+  } */
 }
 .header-container .header .header-1 li a:hover {
   text-decoration: none;

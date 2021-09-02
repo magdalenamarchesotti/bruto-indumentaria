@@ -42,8 +42,12 @@
                         display: none;
                         li {
                             display: block;
+                            position: relative;
                         }
-                    }*/
+                    }
+                    &:hover ul {
+                        display: block; 
+                    } */
                 }
             }
         }

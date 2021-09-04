@@ -389,6 +389,10 @@ html {
     width: 100%;
   }
 
+  .section-container .section .condiciones .condiciones-titulo {
+    text-align: center;
+  }
+
   .photo-grid-container-2 .photo-grid-2 {
     display: grid;
     grid-template-columns: auto auto;

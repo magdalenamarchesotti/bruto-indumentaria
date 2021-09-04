@@ -122,8 +122,18 @@ html {
                 align-items: center;
                     li {
                         img {
-                        width: $ancho;
+                        width: 100%;
                     }
+                }
+            }
+        }
+    }
+
+    .section-container {
+        .section {
+            .condiciones {
+                .condiciones-titulo {
+                    text-align: center;
                 }
             }
         }

@@ -36,7 +36,6 @@
     }
 }
 
-
 .texto-bienvenida {
     color: nth($colores-proyecto, 1);
     letter-spacing: 2px;
@@ -44,7 +43,7 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    margin: 50px 20px 0 20px;
+    margin: 50px 20px 10px 20px;
 }
 
 .section-container {
@@ -86,10 +85,11 @@
     font-size: nth($fuentes-proyecto, 4);
     letter-spacing: 8px;
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 30px;  
+    margin-top: 50px;
+    margin-bottom: 20px;
     }
 
     div {

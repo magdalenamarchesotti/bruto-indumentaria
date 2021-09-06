@@ -36,19 +36,19 @@
                     border-bottom: 3px solid rgb(251,70, 244); 
                     color: nth($colores-proyecto, 5);
                     }
+                }
 
-                    /*ul {
-                        position: absolute;
-                        display: none;
-                        li {
-                            display: block;
-                            position: relative;
+                ul {
+                    position: absolute;
+                    display: none;
+                    li {
+                        display: block;
+                        position: relative;
                         }
                     }
                     &:hover ul {
                         display: block; 
-                    } */
-                }
+                    } 
             }
         }
     }

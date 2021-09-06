@@ -76,7 +76,7 @@ html {
     }
 
     .photo-grid-container-2 {
-        .photo-grid-2 {
+        .card-container {
             grid-template-columns: auto;
             grid-template-rows: repeat(12,auto);
             grid-template-areas: 
@@ -92,10 +92,6 @@ html {
             "photo-10"
             "photo-11"
             "photo-12";
-
-            .imagen-tienda {
-                width: $ancho;
-            }
         }
     }
 
@@ -140,7 +136,7 @@ html {
     }
 
     .photo-grid-container-2 {
-        .photo-grid-2 {
+        .card-container {
             display: grid;
             grid-template-columns: auto auto;
             grid-template-rows: repeat(6,auto);
@@ -151,10 +147,6 @@ html {
             "photo-7 photo-8"
             "photo-9 photo-10"
             "photo-11 photo-12";
-
-            .imagen-tienda {
-                width: 100%;
-            }
         }
     }
 }
@@ -163,7 +155,7 @@ html {
 @media only screen and (min-width: 961px) {
     
     .photo-grid-container-2 {
-        .photo-grid-2 {
+        .card-container {
             display: grid;
             grid-template-columns: auto auto auto;
             grid-template-areas: 

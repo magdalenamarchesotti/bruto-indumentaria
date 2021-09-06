@@ -32,22 +32,22 @@
   font-size: 120%;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  /*ul {
-      position: absolute;
-      display: none;
-      li {
-          display: block;
-          position: relative;
-      }
-  }
-  &:hover ul {
-      display: block; 
-  } */
 }
 .header-container .header .header-1 li a:hover {
   text-decoration: none;
   border-bottom: 3px solid #fb46f4;
   color: #fb46f4;
+}
+.header-container .header .header-1 li ul {
+  position: absolute;
+  display: none;
+}
+.header-container .header .header-1 li ul li {
+  display: block;
+  position: relative;
+}
+.header-container .header .header-1 li:hover ul {
+  display: block;
 }
 
 .seguinos {
@@ -258,7 +258,7 @@
   margin: 30px 0 20px 20px;
   grid-area: titulo;
 }
-.photo-grid-container-2 .photo-grid-2 {
+.photo-grid-container-2 .card-container {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
@@ -269,48 +269,71 @@
   justify-items: center;
   width: 100%;
 }
-.photo-grid-container-2 .photo-grid-2 .imagen-tienda {
-  width: 400px;
-  border-radius: 5%;
+.photo-grid-container-2 .card-container .card {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.photo-grid-container-2 .photo-grid-2 .imagen-tienda:hover {
+.photo-grid-container-2 .card-container .card .card-img-top:hover {
+  cursor: pointer;
   opacity: 0.5;
+}
+.photo-grid-container-2 .card-container .card .card-body .card-title {
+  text-align: center;
+  font-size: 120%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.photo-grid-container-2 .card-container .card .card-body .card-text {
+  text-align: center;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.photo-grid-container-2 .card-container .card .card-body .btn-primary {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-color: black;
+}
+.photo-grid-container-2 .card-container .card .card-body .btn-primary:hover {
+  background-color: #fb46f4;
+  border-color: #fb46f4;
   cursor: pointer;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-1 {
+.photo-grid-container-2 .card-container .photo-1 {
   grid-area: photo-1;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-2 {
+.photo-grid-container-2 .card-container .photo-2 {
   grid-area: photo-2;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-3 {
+.photo-grid-container-2 .card-container .photo-3 {
   grid-area: photo-3;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-4 {
+.photo-grid-container-2 .card-container .photo-4 {
   grid-area: photo-4;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-5 {
+.photo-grid-container-2 .card-container .photo-5 {
   grid-area: photo-5;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-6 {
+.photo-grid-container-2 .card-container .photo-6 {
   grid-area: photo-6;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-7 {
+.photo-grid-container-2 .card-container .photo-7 {
   grid-area: photo-7;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-8 {
+.photo-grid-container-2 .card-container .photo-8 {
   grid-area: photo-8;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-9 {
+.photo-grid-container-2 .card-container .photo-9 {
   grid-area: photo-9;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-10 {
+.photo-grid-container-2 .card-container .photo-10 {
   grid-area: photo-10;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-11 {
+.photo-grid-container-2 .card-container .photo-11 {
   grid-area: photo-11;
 }
-.photo-grid-container-2 .photo-grid-2 .photo-12 {
+.photo-grid-container-2 .card-container .photo-12 {
   grid-area: photo-12;
 }
 
@@ -361,13 +384,10 @@ html {
     font-size: 100%;
   }
 
-  .photo-grid-container-2 .photo-grid-2 {
+  .photo-grid-container-2 .card-container {
     grid-template-columns: auto;
     grid-template-rows: repeat(12, auto);
     grid-template-areas: "photo-1" "photo-2" "photo-3" "photo-4" "photo-5" "photo-6" "photo-7" "photo-8" "photo-9" "photo-10" "photo-11" "photo-12";
-  }
-  .photo-grid-container-2 .photo-grid-2 .imagen-tienda {
-    width: 100%;
   }
 
   .footer-container-2 .footer-menu {
@@ -393,19 +413,16 @@ html {
     text-align: center;
   }
 
-  .photo-grid-container-2 .photo-grid-2 {
+  .photo-grid-container-2 .card-container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "photo-1 photo-2" "photo-3 photo-4" "photo-5 photo-6" "photo-7 photo-8" "photo-9 photo-10" "photo-11 photo-12";
   }
-  .photo-grid-container-2 .photo-grid-2 .imagen-tienda {
-    width: 100%;
-  }
 }
 /* Desktop */
 @media only screen and (min-width: 961px) {
-  .photo-grid-container-2 .photo-grid-2 {
+  .photo-grid-container-2 .card-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-areas: "photo-1 photo-2 photo-3" "photo-4 photo-5 photo-6" "photo-7 photo-8 photo-9" "photo-10 photo-11 photo-12";

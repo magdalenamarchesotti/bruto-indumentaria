@@ -41,10 +41,13 @@
                 ul {
                     position: absolute;
                     display: none;
+                    padding-left: 0;
+                    margin-top: 3px;
                     li {
                         display: block;
                         position: relative;
                         background-color: nth($colores-proyecto, 3);
+                        text-align: center;
                         a {
                             font-size: nth($fuentes-proyecto, 6);
                             &:hover {

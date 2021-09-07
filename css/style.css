@@ -43,7 +43,7 @@
   position: absolute;
   display: none;
   padding-left: 0;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 .header-container .header .header-1 li ul li {
   display: block;
@@ -387,6 +387,10 @@
 .form-presupuesto {
   margin-top: 30px;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.form-presupuesto form {
   width: 30%;
 }
 .form-presupuesto form div .form-label-presup {
@@ -406,15 +410,19 @@
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
 }
-.form-presupuesto form div .btn-presup {
+.form-presupuesto form .btn-enviar {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-presupuesto form .btn-enviar .btn-presup {
   color: white;
   font-size: 100%;
   font-family: "Poppins", sans-serif;
   background-color: black;
   border-color: black;
-  padding: 5px;
+  padding: 10px 20px 10px 20px;
 }
-.form-presupuesto form div .btn-presup:hover {
+.form-presupuesto form .btn-enviar .btn-presup:hover {
   background-color: #fb46f4;
   border-color: #fb46f4;
 }

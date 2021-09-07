@@ -77,8 +77,7 @@
                 }
 
                 .btn-primary {
-                    display: flex;
-                    justify-content: center;
+                    @include parametro-flex (flex, center);
                     background-color:nth($colores-proyecto, 1);
                     border-color:nth($colores-proyecto, 1);
 

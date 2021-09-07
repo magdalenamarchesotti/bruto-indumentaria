@@ -8,7 +8,7 @@
     margin-bottom: 50px;
     @include parametro-flex (flex, center);
     form {
-        width: 30%;
+        width: 40%;
         div {
             .form-label-presup {
                 color: nth($colores-proyecto, 1);
@@ -22,10 +22,11 @@
                 font-family: 'Poppins', sans-serif;
             }
             .form-mensaje {
-                color: nth($colores-proyecto, 1);
+                color: #6E757C;
                 font-size: nth($fuentes-proyecto, 6);
                 letter-spacing: 1px;
                 font-family: 'Poppins', sans-serif;
+                margin-left: 12px;
             }
         }
         .btn-enviar {

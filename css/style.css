@@ -119,6 +119,14 @@
   text-align: center;
 }
 
+.copywright {
+  color: gray;
+  font-size: 60%;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
 .nueva-coleccion .nueva-coleccion-div {
   display: flex;
   align-items: center;
@@ -391,7 +399,7 @@
   justify-content: center;
 }
 .form-presupuesto form {
-  width: 30%;
+  width: 40%;
 }
 .form-presupuesto form div .form-label-presup {
   color: black;
@@ -405,10 +413,11 @@
   font-family: "Poppins", sans-serif;
 }
 .form-presupuesto form div .form-mensaje {
-  color: black;
+  color: #6E757C;
   font-size: 80%;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
+  margin-left: 12px;
 }
 .form-presupuesto form .btn-enviar {
   display: flex;

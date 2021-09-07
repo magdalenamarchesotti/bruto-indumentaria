@@ -46,6 +46,14 @@
 .header-container .header .header-1 li ul li {
   display: block;
   position: relative;
+  background-color: white;
+}
+.header-container .header .header-1 li ul li a {
+  font-size: 80%;
+}
+.header-container .header .header-1 li ul li a:hover {
+  color: #fb46f4;
+  border-bottom: 1px solid #fb46f4;
 }
 .header-container .header .header-1 li:hover ul {
   display: block;
@@ -371,6 +379,53 @@
 }
 .photo-grid-container-2 .card-container .photo-12 {
   grid-area: photo-12;
+}
+
+.form-presupuesto {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 30%;
+}
+.form-presupuesto form div .form-label-presup {
+  color: black;
+  font-size: 90%;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.form-presupuesto form div .form-control {
+  font-size: 80%;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.form-presupuesto form div .form-mensaje {
+  color: black;
+  font-size: 80%;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.form-presupuesto form div .btn-presup {
+  color: white;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  border-color: black;
+  padding: 5px;
+}
+.form-presupuesto form div .btn-presup:hover {
+  background-color: #fb46f4;
+  border-color: #fb46f4;
+}
+
+.mensaje-volver {
+  color: black;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.mensaje-volver:hover {
+  color: #fb46f4;
 }
 
 * {

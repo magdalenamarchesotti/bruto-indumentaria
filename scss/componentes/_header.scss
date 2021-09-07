@@ -44,10 +44,18 @@
                     li {
                         display: block;
                         position: relative;
+                        background-color: nth($colores-proyecto, 3);
+                        a {
+                            font-size: nth($fuentes-proyecto, 6);
+                            &:hover {
+                                color: nth($colores-proyecto, 5);
+                                border-bottom: 1px solid rgb(251,70, 244);
+                            }
+                        }
                         }
                     }
                     &:hover ul {
-                        display: block; 
+                        display: block;
                     } 
             }
         }

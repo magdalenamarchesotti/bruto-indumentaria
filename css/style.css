@@ -124,7 +124,7 @@
   font-size: 60%;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .nueva-coleccion .nueva-coleccion-div {
@@ -607,6 +607,12 @@ html {
   }
   .header-container .header .header-1 li img {
     width: 100%;
+  }
+  .header-container .header .header-1 li ul li {
+    display: none;
+  }
+  .header-container .header .header-1 li ul:hover ul {
+    display: none;
   }
 
   .section-container .section .condiciones .condiciones-titulo {

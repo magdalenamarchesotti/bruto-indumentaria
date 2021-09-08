@@ -173,6 +173,14 @@ html {
                         img {
                         width: 100%;
                     }
+                    ul {
+                        li {
+                            display: none;
+                        }
+                        &:hover ul {
+                            display: none;
+                        }
+                    }
                 }
             }
         }

@@ -83,6 +83,50 @@ html {
         h3 {
             font-size: nth($fuentes-proyecto, 2);
         }
+        div {
+            div {
+                div {
+                    .card-container-1 {
+                        .card {
+                            width: 12rem;
+                            .card-body {
+                                .card-title {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                                .btn-primary {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                            }
+                        }
+                        .tercera-card {
+                            display: none;
+                        }
+                        .cuarta-card {
+                            display: none;
+                        }
+                    }
+                    .card-container-2 {
+                        .card {
+                            width: 12rem;
+                            .card-body {
+                                .card-title {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                                .btn-primary {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                            }
+                        }
+                        .septima-card {
+                            display: none;
+                        }
+                        .octava-card {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .photo-grid-container-2 {

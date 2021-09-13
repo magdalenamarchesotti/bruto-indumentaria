@@ -70,5 +70,20 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20px;
-
+    text-decoration: none;
 }
+
+.copywright-1 {
+    color: gray;
+    font-size: nth($fuentes-proyecto, 5);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+
+    &:hover {
+        color: nth($colores-proyecto, 5);
+    }
+}
+
+

@@ -212,10 +212,10 @@
 }
 
 #locales {
-    h3 {
+    .locales {
         color: nth($colores-proyecto, 1);
-        font-size: nth($fuentes-proyecto, 4);
-        letter-spacing: 5px;
+        font-size: nth($fuentes-proyecto, 3);
+        letter-spacing: 3px;
         font-family: 'Poppins', sans-serif;
         text-decoration: none;
         font-weight: bold;

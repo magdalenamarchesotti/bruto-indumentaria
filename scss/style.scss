@@ -68,6 +68,10 @@ html {
         }
     }
 
+  .texto-bienvenida {
+    font-size: nth($fuentes-proyecto, 2);
+  }  
+
     .section-container {
         .section {
             flex-wrap: wrap;
@@ -79,6 +83,13 @@ html {
         }
     }
 
+#locales {
+    .locales {
+        text-align: center;
+        font-size: nth($fuentes-proyecto, 1);
+    }
+}
+
     .photo-grid-container {
         h3 {
             font-size: nth($fuentes-proyecto, 2);
@@ -87,6 +98,8 @@ html {
             div {
                 div {
                     .card-container-1 {
+                        display: flex;
+                        justify-content: space-around;
                         .card {
                             width: 12rem;
                             .card-body {
@@ -106,6 +119,8 @@ html {
                         }
                     }
                     .card-container-2 {
+                        display: flex;
+                        justify-content: space-around;
                         .card {
                             width: 12rem;
                             .card-body {
@@ -186,11 +201,64 @@ html {
         }
     }
 
+    .texto-bienvenida {
+        font-size: nth($fuentes-proyecto, 2);
+    }
+
     .section-container {
         .section {
             .condiciones {
                 .condiciones-titulo {
                     text-align: center;
+                    font-size: nth($fuentes-proyecto, 6);
+                }
+            }
+        }
+    }
+
+    .photo-grid-container {
+        h3 {
+            font-size: nth($fuentes-proyecto, 3);    
+        }
+        div {
+            div {
+                div {
+                    .card-container-1 {
+                        display: flex;
+                        justify-content: space-around;
+                        .card {
+                            width: 12rem;
+                            .card-body {
+                                .card-title {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                                .btn-primary {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                            }
+                        }
+                        .cuarta-card {
+                            display: none;
+                        }
+                    }
+                    .card-container-2 {
+                        display: flex;
+                        justify-content: space-around;
+                        .card {
+                            width: 12rem;
+                            .card-body {
+                                .card-title {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                                .btn-primary {
+                                    font-size: nth($fuentes-proyecto, 6);
+                                }
+                            }
+                        }
+                        .octava-card {
+                            display: none;
+                        }
+                    }
                 }
             }
         }
@@ -210,6 +278,16 @@ html {
             "photo-11 photo-12";
         }
     }
+}
+
+#locales {
+    h3 {
+        font-size: nth($fuentes-proyecto, 2);
+    }
+}
+
+.seguinos {
+    font-size: nth($fuentes-proyecto, 2);
 }
 
 /* Desktop */

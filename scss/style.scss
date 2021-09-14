@@ -98,8 +98,7 @@ html {
             div {
                 div {
                     .card-container-1 {
-                        display: flex;
-                        justify-content: space-around;
+                        @include parametro-flex(flex, space-around);
                         .card {
                             width: 12rem;
                             .card-body {
@@ -119,8 +118,7 @@ html {
                         }
                     }
                     .card-container-2 {
-                        display: flex;
-                        justify-content: space-around;
+                        @include parametro-flex(flex, space-around);
                         .card {
                             width: 12rem;
                             .card-body {
@@ -224,8 +222,7 @@ html {
             div {
                 div {
                     .card-container-1 {
-                        display: flex;
-                        justify-content: space-around;
+                        @include parametro-flex(flex, space-around);
                         .card {
                             width: 12rem;
                             .card-body {
@@ -242,8 +239,7 @@ html {
                         }
                     }
                     .card-container-2 {
-                        display: flex;
-                        justify-content: space-around;
+                        @include parametro-flex(flex, space-around);
                         .card {
                             width: 12rem;
                             .card-body {

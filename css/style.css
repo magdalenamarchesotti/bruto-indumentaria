@@ -63,7 +63,7 @@
 }
 
 .seguinos {
-  color: #98b379;
+  color: #a1a1a1;
   font-size: 120%;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -83,7 +83,7 @@
   justify-content: space-around;
 }
 .footer-container .footer .iconos-rrss a i {
-  color: #98b379;
+  color: #a1a1a1;
   font-size: 24px;
   margin-bottom: 50px;
 }
@@ -199,7 +199,7 @@
   align-items: center;
 }
 .section-container .section .condiciones .condiciones-titulo {
-  color: #98b379;
+  color: #a1a1a1;
   font-size: 100%;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
@@ -207,8 +207,8 @@
   font-weight: bolder;
 }
 .section-container .section .condiciones i {
-  color: #98b379;
-  font-size: 30px;
+  color: #a1a1a1;
+  font-size: 26px;
 }
 
 .photo-grid-container {
@@ -350,16 +350,6 @@
   text-decoration: none;
 }
 
-.titulo {
-  color: black;
-  font-size: 100%;
-  letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  margin-top: 10px;
-  text-align: center;
-}
-
 .photo-grid-container-2 {
   display: grid;
   grid-template-columns: auto;
@@ -370,13 +360,14 @@
   justify-items: center;
 }
 .photo-grid-container-2 .tienda-2 {
-  color: black;
-  font-size: 150%;
+  color: #a1a1a1;
+  font-size: 120%;
   letter-spacing: 5px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-weight: bold;
-  margin: 30px 0 20px 20px;
+  text-align: center;
+  margin-top: 20px;
   grid-area: titulo;
 }
 .photo-grid-container-2 .card-container {
@@ -546,9 +537,11 @@ html {
 
   .nueva-coleccion .nueva-coleccion-div .nueva-coleccion-div-2 .ss-21 {
     text-align: center;
+    font-size: 120%;
   }
   .nueva-coleccion .nueva-coleccion-div .nueva-coleccion-div-2 .ver-coleccion {
     text-align: center;
+    font-size: 100%;
   }
   .nueva-coleccion .nueva-coleccion-div div img {
     width: 100%;
@@ -614,6 +607,10 @@ html {
     display: none;
   }
 
+  .photo-grid-container-2 .tienda-2 {
+    text-align: center;
+    font-size: 100%;
+  }
   .photo-grid-container-2 .card-container {
     grid-template-columns: auto;
     grid-template-rows: repeat(12, auto);
@@ -643,6 +640,18 @@ html {
   }
   .header-container .header .header-1 li ul:hover ul {
     display: none;
+  }
+
+  .nueva-coleccion .nueva-coleccion-div .nueva-coleccion-div-2 .ss-21 {
+    text-align: center;
+    font-size: 120%;
+  }
+  .nueva-coleccion .nueva-coleccion-div .nueva-coleccion-div-2 .ver-coleccion {
+    text-align: center;
+    font-size: 100%;
+  }
+  .nueva-coleccion .nueva-coleccion-div div img {
+    width: 100%;
   }
 
   .texto-bienvenida {

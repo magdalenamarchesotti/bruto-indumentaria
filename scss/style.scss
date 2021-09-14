@@ -55,9 +55,11 @@ html {
             .nueva-coleccion-div-2 {
                 .ss-21 {
                     text-align: center;
+                    font-size: nth($fuentes-proyecto, 3);
                 }
                 .ver-coleccion {
                     text-align: center;
+                    font-size: nth($fuentes-proyecto, 2);
                 }
             }
             div {
@@ -143,6 +145,10 @@ html {
     }
 
     .photo-grid-container-2 {
+        .tienda-2 {
+            text-align: center;
+            font-size: nth($fuentes-proyecto, 2);
+        }
         .card-container {
             grid-template-columns: auto;
             grid-template-rows: repeat(12,auto);
@@ -194,6 +200,26 @@ html {
                             display: none;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .nueva-coleccion {
+        .nueva-coleccion-div {
+            .nueva-coleccion-div-2 {
+                .ss-21 {
+                    text-align: center;
+                    font-size: nth($fuentes-proyecto, 3);
+                }
+                .ver-coleccion {
+                    text-align: center;
+                    font-size: nth($fuentes-proyecto, 2);
+                }
+            }
+            div {
+                img {
+                    width: 100%;
                 }
             }
         }
